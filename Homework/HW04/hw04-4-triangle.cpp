@@ -19,15 +19,15 @@
 
 int main(){
 
-    int H, W ;
+    float H, W ;
     printf( "Enter H & W :\n" ) ;
-    scanf( "%d %d", &H, &W );
+    scanf( "%f %f", &H, &W );
 
-    int total ;
+    float total ;
     total = (H * W) /2 ;
 
     printf( "Triagle Area : " ) ;
-    printf( "%d", total ) ;
+    printf( "%0.1f", total ) ;
 
     return 0 ;
 }
